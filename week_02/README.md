@@ -3,7 +3,7 @@
 1. Fork this repo into your own GitHub repo.
 1. Clone this to your own computer with `git clone git@github.com:YOURUSERNAME/aipdx-wdim268-2013.git`
 1. Do one of the in-class git tutorials.
-1. Paste a link HERE showing a screenshot of the final exercise: !!PUT YOUR LINK HERE!!
+1. Paste a link HERE showing a screenshot of the final exercise: https://github.com/kaoriprice/aipdx-wdim268-2013/blob/master/week_02/git_beginner_complete.png
 1. Git add this file: `git add README.md`
 1. Git commit this file: `git commit -m "proof i did stuff in class"`
 1. Git push this file back to your GitHub: `git push origin master`	
