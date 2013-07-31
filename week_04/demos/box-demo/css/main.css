@@ -1,0 +1,38 @@
+.container{
+  width: 400px;
+  margin: 20px auto;
+  border: 3px solid red;
+}
+.container div{
+  background-color: #2d2d2d;
+  color: white;
+  padding: 20px;
+
+}
+.no-width{
+
+}
+.one-hundred{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.abs-container{
+  width: 500px;
+  background-color: grey;
+  height: 100px;
+  position: relative;
+  margin: 20px auto;
+}
+.abs-container div{
+  background-color: white;
+  position: absolute;
+}
+.abs-box{
+  top: 0;
+  right: 0;
+}
+.abs-box-large{
+  top: 30px;
+  right: 0;
+}
