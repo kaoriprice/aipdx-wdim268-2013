@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WDIM268 | Demo: Unobtrusive Clearing</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, projection" />
+<style type="text/css">
+
+body {
+	color: #666;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h2, ul, p {
+	padding-bottom: 24px;
+}
+
+a {
+	color: #00ccff;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 80px;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+#content {
+	margin: 0 auto;
+	padding: 40px 20px;
+	width: 920px;
+}
+
+#tiles li {
+	background: #e3e3e3;
+	float: left;
+	height: 160px;
+	margin: 0 20px 20px 0;
+	padding: 20px;
+	width: 240px;
+}
+
+#tiles:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="content">
+
+	<h1>Top Heading</h1>
+	<h2>Subhead</h2>
+
+	<ul id="tiles">
+		<li>Item</li>
+		<li>Item</li>
+		<li>Item</li>
+		<li>Item</li>
+		<li>Item</li>
+	</ul>
+
+	<p>This should be below the tiled list items.</p>
+
+</div>
+
+</body>
+</html>
