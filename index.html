@@ -2,52 +2,123 @@
 <html>
 	<head>
 		<title>WDIM268 Final Project Website::Home</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/reset.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<header>
 			<!--Font is "Fertigo Pro", found at Font Squirrel.
 			"WDIM268 final project website" are H1 image replacement.  -->
-			<h1><strong>WDIM268</strong> Final project website<h1>
-			<img src='image.jpg' alt='image of a search area'>
-			<nav>
-			  <ul>
-			    <li><a href="#">Home</a></li>
-			    <li><a href="#">About</a></li>
-			    <li><a href="#">Services</a></li>
-			    <li><a href="#">Portfolio</a></li>
-			    <li><a href="#">Blog</a></li>
-			    <li><a href="#">Contact</a></li>
-			    <li><a href="#">Pricing</a></li>
-			  </ul>
-			</nav>
-			<nav>
-			  <ul>
-			    <li><a href="#">Log in</a></li>
-			    <p>or</p>
-			    <li><a href="#">Sign up</a></li>
-			  </ul>
-			</nav>
+			<div id="header_top">
+				<div class="wrapper">
+					<h1><strong>WDIM268</strong> Final project website</h1>
+					<img src='image.jpg' alt='image of a search area'/>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div id="header_bottom">
+				<div class="wrapper">
+					<nav id="global_nav">
+					  <ul>
+					    <li><a href="#">Home</a></li>
+					    <li><a href="#">About</a></li>
+					    <li><a href="#">Services</a></li>
+					    <li><a href="#">Portfolio</a></li>
+					    <li><a href="#">Blog</a></li>
+					    <li><a href="#">Contact</a></li>
+					    <li><a href="#">Pricing</a></li>
+						
+					  </ul>
+					</nav>
+					
+					<div id="login_signin">
+					    <a id="login" href="#">Log in</a>
+					    or
+					    <a id="signup" href="#">Sign up</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
 		</header>
-		<div>
-			<h1>We make the best website!</h1>
-			<h2>Because web design is our passion and that's what we do.</h2>
-			<ul>
-				<li>Design</li>					
-				<li>(X)HTML/Css</li>
-				<li>Javascript</li>
-				<li>Custom CMS (BVD)</li>
-				<li>Project management</li>
-				<li>Hosting</li>
-				<li>Support</li>
-			</ul>
-			<p>Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.</p>
-			<section>
-				<h1>WDIM268 is the best agency I've ever worked with...</h1>
-				<q>"These guys are simply awesome. I sent them my brief, they answered within few hours and one week later they delivered me the best design ever!"</q>
-				<button name='Testimonial'>See What Others are Saying</button>
-				<cite>said <i>John Doe</i> of <a><img src="#" alt="logo of awesomeness"></a></cite>
-			</section>
+		<div id="hero_picture">
+			<div class="wrapper">
+				<div class="left50">
+					<h1>
+						This isn't as hard as it looks.<br>
+						I promise.
+					</h1>
+					<h2>
+						Because you are the next generation of web designers and developers.
+					</h2>
+					<p>
+						<strong>Gratuitous octopus niacin, sodium glutimate.</strong><br/>
+						Quote me on an estimate et non interruptus stadium.
+					</p>
+					<button name="GetAQuote">Get A Quote</button>
+					<button name="ViewPortfolio">View Portfolio</button>
+				</div>
+				<div class="clear"></div>
+				<div class="right50">
+					<img src="#" alt="Two images of a website">
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div id="body">
+			<div class="wrapper">
+				<div id="menu">
+					<a id="Web_Design">
+						<img src="#" alt="Web Design" />
+					</a>
+					<a id="Marketing">
+						<img src="#" alt="Marketing" />
+					</a>
+					<a id="Consulting">
+						<img src="#" alt="Consulting" />
+					</a>
+					<a id="Support">
+						<img src="#" alt="Support" />
+					</a>
+				</div>
+				
+				<figure>
+					<img src="#" alt="image of a portfolio site" />
+					<figcaption>
+						<i>Freelance designer</i>  - January 2009
+					</figcaption>
+				</figure>
+				
+				<div class="right50">
+					<h1>We make the best website!</h1>
+					<h2>Because web design is our passion and that's what we do.</h2>
+					<ul>
+						<li>Design</li>
+						<li>(X)HTML/Css</li>
+						<li>Javascript</li>
+						<li>Custom CMS (BVD)</li>
+						<li>Project management</li>
+						<li>Hosting</li>
+						<li>Support</li>
+					<div class="clear"></div>
+					</ul>
+					<p>Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.</p>
+				</div>
+				<div class="clear"></div>
+
+				<section>
+					<div>
+						<h1>WDIM268 is the best agency I've ever worked with...</h1>
+						<q>"These guys are simply awesome. I sent them my brief, they answered within few hours and one week later they delivered me the best design ever!"</q>
+						<button name='Testimonial'>See What Others are Saying</button>
+						<cite>said <i>John Doe</i> of 
+							<a>
+								<img src="#" alt="logo of awesomeness">
+							</a>
+						</cite>
+					</div>
+				</section>
+			</div>
 		</div>
 		<footer>
 			<div>
