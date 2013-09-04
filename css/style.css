@@ -54,19 +54,19 @@ header div#header_bottom nav#global_nav li a:hover{
 	background: radial-gradient(ellipse at center,  rgba(249,196,72,1) 0%,rgba(249,203,136,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c448', endColorstr='#f9cb88',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-header div#header_bottom div#login_signin{
+header div#header_bottom div.float_right{
 	float:right;
 
 }
-header div#header_bottom div#login_signin a#login{
+header div#header_bottom div.float_right a#login{
 	padding-right:10px;
 	font-weight: bold;	
 	color:#555555;
 }
-header div#header_bottom div#login_signin a#login:hover{
+header div#header_bottom div.float_right a#login:hover{
 	color:#2592cc;
 }
-header div#header_bottom div#login_signin a#signup{
+header div#header_bottom div.float_right a#signup{
 	border-radius: 5px;
 	color:#fff;
 	background-color: #2592cc;
@@ -209,4 +209,57 @@ div#body section div cite i{
 }
 div#body section div cite img{
 	padding-left:10px;
+}
+footer div#footer_top{
+	background-color: #dcdcdc;
+	border-top: 1px solid #a5a5a5;
+	border-bottom: 1px solid #3e3e3e;
+	height:10px;
+}
+footer{
+	background-color: #606060;
+}
+footer div.wrapper div *{
+	color: #fff;
+}
+footer div#footer_bottom{
+	background-color: #dcdcdc;
+	border-top: 1px solid #fff;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+footer div#footer_bottom *{
+	color:#848484;
+}
+footer div#footer_bottom strong{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+footer div#footer_bottom a:hover{
+	color:#505050;
+}
+footer div#footer_bottom div.wrapper div.float_left{
+	float:left;
+}
+footer div#footer_bottom div.wrapper div.float_right{
+	float:right;
+}
+footer div#footer_bottom div.wrapper div.float_right li{
+	color:#505050;
+	padding-left:10px;
+	float: left;
+}
+footer div.wrapper div.left25{
+	width: 25%;
+	float: left;
+	padding: 20px 10px 30px 0;
+}
+footer div.wrapper div.left25::last-child{
+	padding: 20px 0 30px 0;
+}
+footer div.wrapper div.left25 h1{
+	font-size: 1.2em;
+}
+hr{
+	color: red;
 }
