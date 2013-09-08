@@ -22,7 +22,6 @@ div#bg div.wrapper{
 	background: -o-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(232,232,232,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 div#bg div.wrapper div.body_color{
 	-webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#bebebe), to(#fff), color-stop(0.5, #fff), color-stop(0, #66cc00)) 21 30 30 21 repeat repeat;
@@ -37,14 +36,12 @@ div#bg div.wrapper div.body_color{
 	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
-
 }
-div#bg div.wrapper div.body_color div div.float_left{
+div.body_main div.float_left{
 	float:left;
 	width:60%;
 }
-div#bg div.wrapper div.body_color div div.float_left h1 {
+div.body_main div.float_left h1 {
 color: #333;
 padding-top: 10px;
 padding-bottom: 5px;
@@ -53,14 +50,14 @@ font-size: 1.5em;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 font-weight: bold;
 }
-div#bg div.wrapper div.body_color div div.float_left  h2 {
+div.body_main div.float_left  h2 {
 color: #888;
 line-height: 1.5em;
 font-size: 1.3em;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 padding-bottom: 5px;
 }
-div#bg div.wrapper div.body_color div div.float_left  p {
+div.body_main div.float_left  p {
 color: #666;
 line-height: 1.2em;
 padding-top: 10px;
@@ -68,31 +65,31 @@ font-size: .9em;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 padding-bottom: 20px;
 }
-div#bg div.wrapper div.body_color div div.float_right{
+div.body_main div.float_right{
 	float:right;
 }
-div#bg div.wrapper div.body_color div div.float_right h3{
+div.body_main div.float_right h3{
 	font-size:.9em;
 	font-weight: bold;
 	color:#666;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	padding-top:60px;
 }
-div#bg div.wrapper div.body_color div div#price_plan{
+div.body_main div#price_plan{
 	background-color: #f2f2f2;
 	border: 1px solid #e0e0df;
 	padding: 20px;
 	margin-top:40px;
 }
-div#bg div.wrapper div.body_color div div#price_plan div div{
+div.body_main div#price_plan div div{
 	height:80px;
 }
-div#bg div.wrapper div.body_color div div div#professional{
+div.body_main div div#professional{
 	width:25%;
 	float:left;
 	border-right: 1px solid #fff;
 }
-div#bg div.wrapper div.body_color div div div#basic{
+div.body_main div div#basic{
 	width:25%;
 	float:left;
 	background-color: #f2f2f2;
@@ -101,32 +98,32 @@ div#bg div.wrapper div.body_color div div div#basic{
 	border-right: 1px solid #fff;
 
 }
-div#bg div.wrapper div.body_color div div div#advanced{
+div.body_main div div#advanced{
 	width:25%;
 	float:left;
 	padding-left: 20px;
 	border-left: 1px solid #e0e0df;
 	border-right: 1px solid #fff;
 }
-div#bg div.wrapper div.body_color div div div#nitro{
+div.body_main div div#nitro{
 	width:25%;
 	float:left;
 	padding-left: 20px;
 	border-left: 1px solid #e0e0df;
 }
-div#bg div.wrapper div.body_color div div#price_plan div h1{
+div.body_main div#price_plan div h1{
 color: #666;
 font-size: 1.3em;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 font-weight: bold;
 }
-div#bg div.wrapper div.body_color div div#price_plan div p{
+div.body_main div#price_plan div p{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #666;
 	padding-top:10px;
 	font-size:.9em;
 }
-div#bg div.wrapper div.body_color div div#price_plan div h2{
+div.body_main div#price_plan div h2{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #d05606;
 	padding-top:10px;
@@ -134,7 +131,7 @@ div#bg div.wrapper div.body_color div div#price_plan div h2{
 	font-weight: bold;
 	display: inline;
 }
-div#bg div.wrapper div.body_color div div#price_plan div small{
+div.body_main div#price_plan div small{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #888;
 	padding-top:8px;
@@ -143,7 +140,7 @@ div#bg div.wrapper div.body_color div div#price_plan div small{
 }
 
 	
-div#bg div.wrapper div.body_color div div#price_plan div button{
+div.body_main div#price_plan div button{
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	border:1px solid #c1c2c2; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:12px;
 	padding: 10px 20px 10px 20px; text-decoration:none; display:inline-block;text-shadow: 0px 0px 0 rgba(0,0,0,0.3); color: #6c6b6b;
@@ -152,13 +149,13 @@ div#bg div.wrapper div.body_color div div#price_plan div button{
  	background-image: -moz-linear-gradient(top, #DDDEDE, #8E9292);
  	background-image: -ms-linear-gradient(top, #DDDEDE, #8E9292);
  	background-image: -o-linear-gradient(top, #DDDEDE, #8E9292);
- 	background-image: linear-gradient(to bottom, #DDDEDE, #8E9292);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DDDEDE, endColorstr=#8E9292);
+ 	background-image: linear-gradient(to bottom, #DDDEDE, #8E9292);
 	font-size: .8em;
 	margin-top:30px;
 	margin-bottom:30px;
 	text-transform: uppercase;
 }
-div#bg div.wrapper div.body_color div div#price_plan div button:hover{
+div.body_main div#price_plan div button:hover{
 	text-decoration:none; display:inline-block;text-shadow: 0px 0px 0 rgba(0,0,0,0.3);
  	background-color: #FFC579; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFC579), to(#D05706));
  	background-image: -webkit-linear-gradient(top, #FFC579, #D05706);
@@ -166,28 +163,27 @@ div#bg div.wrapper div.body_color div div#price_plan div button:hover{
  	background-image: -ms-linear-gradient(top, #FFC579, #D05706);
  	background-image: -o-linear-gradient(top, #FFC579, #D05706);
  	background-image: linear-gradient(to bottom, #FFC579, #D05706);
- 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFC579, endColorstr=#D05706);	
 	color:#fff;
 }
-div#bg div.wrapper div.body_color div div#price_plan div ul li.blue{
+div.body_main div#price_plan div ul li.blue{
 	list-style-image: url('../img/blue_check.png');
 	padding: 0px 10px 10px 10px;
 }
-div#bg div.wrapper div.body_color div div#price_plan div ul li.red{
+div.body_main div#price_plan div ul li.red{
 	list-style-image: url('../img/red_cross.png');
 	padding: 0px 10px 10px 10px;
 }
-div#bg div.wrapper div.body_color div div#price_plan div ul li{
+div.body_main div#price_plan div ul li{
 	color: #333;
 	font-size: .8em;
 	line-height: 2em;
 	margin-left: 10px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-div#bg div.wrapper div.body_color div div:last-child{
+div.body_main div:last-child{
 	padding-top:20px;
 }
-div#bg div.wrapper div.body_color div div small{
+div.body_main div small{
 	font-size: .9em;
 	line-height: 1.5em;
 	font-style: italic;
@@ -195,7 +191,7 @@ div#bg div.wrapper div.body_color div div small{
 	color:#888;
 
 }
-div#bg div.wrapper div.body_color div div h3{
+div.body_main div h3{
 	padding-top:40px;
 	padding-bottom:20px;
 	color: #666;
@@ -204,10 +200,10 @@ div#bg div.wrapper div.body_color div div h3{
 	font-weight: bold;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
-div#bg div.wrapper div.body_color div div h3 span{
+div.body_main div h3 span{
 	color:#d05606
 }
-div#bg div.wrapper div.body_color div div p{
+div.body_main div p{
 	color: #666;
 	line-height: 1.2em;
 	padding-top: 10px;

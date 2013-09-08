@@ -4,6 +4,8 @@
 		<title>WDIM268 Final Project Website::Blog</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/about.css" rel="stylesheet" type="text/css">
+		<link href="css/portfolio.css" rel="stylesheet" type="text/css">
 		<link href="css/blog.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	</head>
@@ -12,7 +14,7 @@
 		<header>
 			<div id="header_top">
 				<div class="wrapper">
-					<h1><strong>WDIM268</strong> Final project website</h1>
+					<a href="index.html"><h1><strong>WDIM268</strong> Final project website</h1></a>
 					<img src='img/search.jpg' alt='image of a search area'/>
 				</div>
 				<div class="clear"></div>
@@ -21,14 +23,13 @@
 				<div class="wrapper">
 					<nav id="global_nav">
 					  <ul>
-					    <li><a href="#">Home</a></li>
-					    <li><a href="#">About</a></li>
+					    <li><a href="index.html">Home</a></li>
+					    <li><a href="about.html">About</a></li>
 					    <li><a href="#">Services</a></li>
-					    <li><a href="#">Portfolio</a></li>
-					    <li><a href="#">Blog</a></li>
-					    <li><a href="#">Contact</a></li>
-					    <li><a href="#">Pricing</a></li>
-
+					    <li><a href="portfolio.html">Portfolio</a></li>
+					    <li><a class="active" href="blog.html">Blog</a></li>
+					    <li><a href="contact.html">Contact</a></li>
+					    <li><a href="pricing.html">Pricing</a></li>
 					  </ul>
 					</nav>
 
@@ -45,7 +46,7 @@
 		<div id="bg">
 			<div class="wrapper">
 				<div class="body_color">
-					<div>
+					<div class="main_body">
 						<article>
 							<h1>Ordered and Unordered Lists</h1>
 							<h2>published on <time>2009-12-01</time> in <a href="#">Website</a> tagged <a href="#">Themeforest</a>, <a href="#">Corporate</a></h2>
@@ -88,24 +89,27 @@
 									<li><a href="#">Fatherfood</a></li>
 								</ul>
 							</nav>
-
-							<h1>Subscribe</h1>
-							<a href="#">RSS Feed</a><br/>
-							<a href="#">Email Updates</a><br/>
-							<img src="img/subscriber.png" alt='image of a counter for the number of readers'/>
-							<figure>
-								<a href="#"><img src="img/flickr01.jpg" alt="top let picture of a series of four" /></a>
-								<a href="#"><img src="img/flickr02.jpg" alt="top right picture of a series of four" /></a>
-								<div class="clear"></div>
-								<a href="#"><img src="img/flickr03.jpg" alt="top let picture of a series of four" /></a>
-								<a href="#"><img src="img/flickr04.jpg" alt="top let picture of a series of four" /></a>
-								<div class="clear"></div>
-								<img src="img/flickr.png" alt="Flickr logo" />
-								<figcaption>
-									Join Our Flickr Group<br/>
-									To Share Your Work
-								</figcaption>
-							</figure>
+							<div>
+								<section class="aside_text">
+									<h1>Subscribe</h1>
+									<a href="#">RSS Feed</a><br/>
+									<a href="#">Email Updates</a><br/>
+									<img src="img/subscriber.png" alt='image of a counter for the number of readers'/>
+									<figure>
+										<a href="#"><img src="img/flickr01.jpg" alt="top let picture of a series of four" /></a>
+										<a href="#"><img src="img/flickr02.jpg" alt="top right picture of a series of four" /></a>
+										<div class="clear"></div>
+										<a href="#"><img src="img/flickr03.jpg" alt="top let picture of a series of four" /></a>
+										<a href="#"><img src="img/flickr04.jpg" alt="top let picture of a series of four" /></a>
+										<div class="clear"></div>
+										<img id="flickr" src="img/flickr.png" alt="Flickr logo" />
+										<figcaption>
+											Join Our Flickr Group<br/>
+											To Share Your Work
+										</figcaption>
+									</figure>
+								</section>
+							</div>
 						</aside>
 					</div>
 				</div>

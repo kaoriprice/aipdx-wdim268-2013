@@ -29,6 +29,11 @@ div#header_top div.wrapper h1{
 }
 div.clear{
 	clear:both;
+	border: 0;
+	background-color: transparent;
+	width:0;
+	height:0;
+	float: none !important;
 }
 div#header_top{
 	border-bottom:1px solid #b4b4b4;
@@ -52,13 +57,13 @@ header div#header_top img{
 	float:right;
 	margin-right:10px;
 }
-header div#header_bottom nav#global_nav{
+nav#global_nav{
 	float:left;
 }
-header div#header_bottom nav#global_nav li{
+nav#global_nav li{
 	float:left;
 }
-header div#header_bottom nav#global_nav li a{
+nav#global_nav li a{
 	color:#848484;
 	padding:5px 10px 5px 10px;
 	border: 1px solid #e4e4e3;
@@ -66,7 +71,8 @@ header div#header_bottom nav#global_nav li a{
 	border-radius: 5px;
 	text-decoration:none;
 }
-header div#header_bottom nav#global_nav li a:hover{
+nav#global_nav li a:hover,
+nav#global_nav li a.active{
 	border:1px solid #ffad41;
 	text-shadow: 0px 0px 0 rgba(0,0,0,0.3);
  	background-color: #FFC579; 
@@ -79,18 +85,18 @@ header div#header_bottom nav#global_nav li a:hover{
  	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFC579, endColorstr=#D05706);	
 	color:#fff;
 }
-header div#header_bottom div.float_right{
+div#header_bottom div.float_right{
 	float:right;
 }
-header div#header_bottom div.float_right a#login{
+div#header_bottom div.float_right a#login{
 	padding-right:10px;
 	font-weight: bold;	
 	color:#555555;
 }
-header div#header_bottom div.float_right a#login:hover{
+div#header_bottom div.float_right a#login:hover{
 	color:#2592cc;
 }
-header div#header_bottom div.float_right a#signup{
+div#header_bottom div.float_right a#signup{
 	border-radius: 5px;
 	color:#fff;
 	background-color: #2592cc;
@@ -109,7 +115,9 @@ div.left50{
 	width:50%;
 	float:left;
 }
-div#hero_picture div.wrapper div.left50 h1, h2, p{
+div#hero_picture div.wrapper div.left50 h1, 
+div#hero_picture div.wrapper div.left50 h2, 
+div#hero_picture div.wrapper div.left50 p{
 	color:#fff;
 }
 div#hero_picture div.wrapper div.left50 h1{
@@ -169,7 +177,7 @@ div.right50 img{
 div#body{
 	padding-bottom:40px;
 }
-div#body div.wrapper div#menu{
+div#menu{
 	width: 100%;
 	position: relative;
 }
@@ -177,64 +185,64 @@ div#body div.wrapper div#menu{
 div#menu div {
 	position: absolute;
 }
-div#body div.wrapper div#menu div{
+div#menu div{
 	float:left;
 	width:75px;
 	height:61px;
 	background: url("../img/shadow.png");
 	top: 39px;
 }
-div#body div.wrapper div#menu div:first-child{
+div#menu div:first-child{
 	left: -75px;
 }
-div#body div.wrapper div#menu div:last-child{
+div#menu div:last-child{
 	transform: scale(-1,1);
 	-ms-transform: scale(-1,1); 
 	-webkit-transform: scale(-1,1);
 	right: -75px;
 }
-div#body div.wrapper div#menu a{
+div#menu a{
 	margin-top:40px;
 	margin-bottom:40px;
 	height:60px;
 	border:1px solid #b1b0b0;
 	display: block;
-	width:239px;
+	width:240px;
 	float:left;
 }
-div#body div.wrapper div#menu a#web_design{
+div#menu a#web_design{
 	border-top-left-radius:15px;
 	background:url("../img/web_design.png");
 }
 /*question*/
-div#body div.wrapper div#menu a#web_design:hover{
+div#menu a#web_design:hover{
 	background:url("../img/web_design_selected.png");
 }
 /*question*/
-div#body div.wrapper div#menu a#marketing{
+div#menu a#marketing{
 	border-left:none;
 	background:url("../img/marketing.png");
 }
-div#body div.wrapper div#menu a#marketing:hover{
+div#menu a#marketing:hover{
 	background:url("../img/marketing_selected.png");
 }
-div#body div.wrapper div#menu a#consulting{
+div#menu a#consulting{
 	background:url("../img/consulting.png");
 	border-left:none;
 }
-div#body div.wrapper div#menu a#consulting:hover{
+div#menu a#consulting:hover{
 	background:url("../img/consulting_selected.png");
 }
-div#body div.wrapper div#menu a#support{
+div#menu a#support{
 	background:url("../img/support.png");
 	border-top-right-radius:15px;
 	border-left:none;
 }
-div#body div.wrapper div#menu a#support:hover{
+div#menu a#support:hover{
 	background:url("../img/support_selected.png");
 }
 
-div#body div.wrapper div#menu h1{
+div#menu h1{
 	float:left;
 }
 div#body div.wrapper figure{
@@ -267,13 +275,12 @@ div#body div.wrapper div.right50 h2{
 	 line-height: 1.5em;
 	 font-family:Verdana, Arial, Helvetica, sans-serif;
 }
-/*why is list-style-image NOT working?*/
-div#body div.wrapper div.right50 ul{
+ul.service{
 	list-style-image: url('../img/blue_check.png');
 	padding:10px 10px 10px 10px;
 
 }
-div#body div.wrapper div.right50 ul li{
+ul.service li{
 	color:#333;
 	font-size:.8em;
 	line-height: 2em;
@@ -289,25 +296,25 @@ div#body div.wrapper div.right50 p{
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	padding-top:10px;
 }
-div#body section {
+section.testimonial {
 	background-color: #f2f2f2;
 	border:1px solid #e0e0df;
 	padding:10px;
 	margin-top:20px;
 }
-div#body section div{
+section.testimonial div{
 	border:1px solid #ececec;
 	background-color: #f8f7f7;
 	padding:20px;
 }
-div#body section div h1{
+section.testimonial div h1{
 	color:#d05606;
 	padding-bottom:20px;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size: .8em;
 	font-weight: bold;
 }
-div#body section div q{
+section.testimonial div q{
 	font-size:1.5em;
 	line-height: 1.5em;
 	color:#666;
@@ -315,7 +322,7 @@ div#body section div q{
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: italic;
 }
-div#body section div button{
+section.testimonial div button{
 	margin-top:20px;
 	padding:10px 20px 10px 20px;
 	background-color: #f2f2f2;
@@ -517,4 +524,54 @@ footer div#footer_bottom div.wrapper div.float_right li{
 	float: left;
 	text-transform: uppercase;
 	font-size: .8em;
+}
+
+aside
+{
+	width: 180px;
+}
+aside nav{
+	background-color: #f2f2f2;
+	border: 1px solid #e0e0df;
+	padding: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+}
+aside nav strong{
+	text-align: center;
+	display: block;
+	font-size: 2em;
+	color:#666;
+	padding-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+aside nav p{
+	text-align: center;
+	font-size: 1.5em;
+	text-shadow: rgba(222, 222, 222, 03) 1px 0;
+	font-weight: bold;
+	color:#d05606;
+	letter-spacing: .1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-bottom:30px;
+}
+div#bg div.wrapper div.body_color aside nav ul li{
+	color: #666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+aside nav ul li a{
+	display: block;
+	height: 45px;
+	padding-top: 14px;
+	width: 229px;
+	position: relative;
+	left: -31px;
+	padding-left: 31px;
+	color:#666;
+}
+aside nav ul li a:hover,
+aside nav ul li a.active{
+	color:#fff;
+	background: url("../img/arrow.png");
 }

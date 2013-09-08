@@ -4,6 +4,7 @@
 		<title>WDIM268 Final Project Website::Home</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/about.css" rel="stylesheet" type="text/css">
 		<link href="css/portfolio.css" rel="stylesheet" type="text/css" >
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	</head>
@@ -11,7 +12,7 @@
 		<header>
 			<div id="header_top">
 				<div class="wrapper">
-					<h1><strong>WDIM268</strong> Final project website</h1>
+					<a href="index.html"><h1><strong>WDIM268</strong> Final project website</h1></a>
 					<img src='img/search.jpg' alt='image of a search area'/>
 				</div>
 				<div class="clear"></div>
@@ -20,14 +21,13 @@
 				<div class="wrapper">
 					<nav id="global_nav">
 					  <ul>
-					    <li><a href="#">Home</a></li>
-					    <li><a href="#">About</a></li>
+					    <li><a href="index.html">Home</a></li>
+					    <li><a href="about.html">About</a></li>
 					    <li><a href="#">Services</a></li>
-					    <li><a href="#">Portfolio</a></li>
-					    <li><a href="#">Blog</a></li>
-					    <li><a href="#">Contact</a></li>
-					    <li><a href="#">Pricing</a></li>
-
+					    <li><a class="active"  href="portfolio.html">Portfolio</a></li>
+					    <li><a href="blog.html">Blog</a></li>
+					    <li><a href="contact.html">Contact</a></li>
+					    <li><a href="pricing.html">Pricing</a></li>
 					  </ul>
 					</nav>
 
@@ -44,7 +44,35 @@
 		<div id="bg">
 			<div class="wrapper">
 				<div class="body_color">
-					<div>
+					<aside>
+						<nav>
+							<strong>Categories</strong>
+							<ul>
+								<li><a class="active" href="#">Web Design</a></li>
+								<li><a href="#">Print Desin</a></li>
+								<li><a href="#">Development</a></li>
+								<li><a href="#">Coding</a></li>
+								<li><a href="#">Lifestyle</a></li>
+								<li><a href="#">Fatherfood</a></li>
+							</ul>
+						</nav>
+						<div>
+							<section class="aside_text">
+								<h1>Something about our<br/>
+									<em>web design</em></h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque, sollicitudin eget pharetra id, sollicitudin sed mi.
+								</p>
+								<p>
+									Maecenas non adipiscing massa. Pellentesque rhoncus magna et enim porttitor, sollicitudin tempus lacus suscipit.
+								</p>
+								<p>
+									Mauris semper tristique congue. Integer eget ultricies ipsum.
+								</p>
+							</section>
+						</div>
+					</aside>					
+					<div class="body_main">
 						<h1>Portfolio</h1>
 						<h2>We only create quality works</h2>
 						
@@ -64,7 +92,6 @@
 									</p>
 								</div>
 							</article>
-							<div class="clear"></div>
 						</div>
 
 						<div class="blog">
@@ -77,7 +104,6 @@
 									</p>
 								</div>
 							</article>
-							<div class="clear"></div>
 						</div>
 
 						<div class="blog">
@@ -90,7 +116,6 @@
 									</p>
 								</div>
 							</article>
-							<div class="clear"></div>
 						</div>
 
 						<div class="blog">
@@ -103,39 +128,8 @@
 									</p>
 								</div>
 							</article>
-							<div class="clear"></div>
 						</div>
-					
-						<div>
-							<aside>
-								<nav>
-									<strong>Categories</strong>
-									<ul>
-										<li><a href="#">Web Design</a></li>
-										<li><a href="#">Print Desin</a></li>
-										<li><a href="#">Development</a></li>
-										<li><a href="#">Coding</a></li>
-										<li><a href="#">Lifestyle</a></li>
-										<li><a href="#">Fatherfood</a></li>
-									</ul>
-								</nav>
-								<div>
-									<section>
-										<h1>Something about our<br/>
-											<em>web design</em></h1>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque, sollicitudin eget pharetra id, sollicitudin sed mi.
-										</p>
-										<p>
-											Maecenas non adipiscing massa. Pellentesque rhoncus magna et enim porttitor, sollicitudin tempus lacus suscipit.
-										</p>
-										<p>
-											Mauris semper tristique congue. Integer eget ultricies ipsum.
-										</p>
-									</section>
-								</div>
-							</aside>
-						</div>
+						<div class="clear"></div>
 					</div>
 				</div>
 			</div>

@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<title>WDIM268 Final Project Website::About</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/about.css" rel="stylesheet" type="text/css">
 		<link href="css/contact.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	</head>
@@ -12,7 +13,7 @@
 		<header>
 			<div id="header_top">
 				<div class="wrapper">
-					<h1><strong>WDIM268</strong> Final project website</h1>
+					<a href="index.html"><h1><strong>WDIM268</strong> Final project website</h1></a>
 					<img src='img/search.jpg' alt='image of a search area'/>
 				</div>
 				<div class="clear"></div>
@@ -21,14 +22,13 @@
 				<div class="wrapper">
 					<nav id="global_nav">
 					  <ul>
-					    <li><a href="#">Home</a></li>
-					    <li><a href="#">About</a></li>
+					    <li><a href="index.html">Home</a></li>
+					    <li><a href="about.html">About</a></li>
 					    <li><a href="#">Services</a></li>
-					    <li><a href="#">Portfolio</a></li>
-					    <li><a href="#">Blog</a></li>
-					    <li><a href="#">Contact</a></li>
-					    <li><a href="#">Pricing</a></li>
-
+					    <li><a href="portfolio.html">Portfolio</a></li>
+					    <li><a href="blog.html">Blog</a></li>
+					    <li><a class="active" href="contact.html">Contact</a></li>
+					    <li><a href="pricing.html">Pricing</a></li>
 					  </ul>
 					</nav>
 
@@ -45,7 +45,47 @@
 		<div id="bg">
 			<div class="wrapper">
 				<div class="body_color">
-					<div>
+					<aside>
+						<div>
+							<address>
+								<p>Office Europe</p>
+								<em>Phone:</em><br/>
+								+4 568 65 9321<br/>
+								<em>Fax:</em><br/>
+								+4 568 65 9322<br/>
+								<em>Email:</em><br/>
+								address@address.com
+							</address>
+							<address>
+								<p>Office Asia</p>
+								<em>Phone:</em><br/>
+								+4 568 65 9321<br/>
+								<em>Fax:</em><br/>
+								+4 568 65 9322<br/>
+								<em>Email:</em><br/>
+								address@address.com
+							</address>
+						</div>
+
+						<div>
+							<section>
+								<h1>Something about our<br/><em>web design</em></h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque, sollicitudin eget pharetra id, sollicitudin sed mi.
+								</p>
+								<p>
+									Maecenas non adipiscing massa. Pellentesque rhoncus magna et enim porttitor, sollicitudin tempus lacus suscipit.
+								</p>
+								<p>
+									Mauris semper tristique congue. Integer eget ultricies ipsum.
+								</p>
+							</section>
+						</div>
+						<div class="clear"></div>
+					</aside>
+					
+
+					<div class="body_main">
 						<h1>Contact</h1>
 						<h2>We can answer all your questions</h2>
 						<p>
@@ -57,85 +97,39 @@
 
 						<form action="#" method="post">
 							<label>
-								<span>Name</span>
-								<input id="POST-name" type="text" name="name">
+								<input id="POST-name" type="text" name="name" placeholder="Name">
 							</label>
 							<div class="clear"></div>
 							<label>
-								<span>Email</span>
-								<input id="POST-email" type="text" name="email">
+								<input id="POST-email" type="text" name="email" placeholder="Email">
 							</label>
 							<div class="clear"></div>
 							<label>
-								<span>Subject</span>
-								<input id="POST-subject" type="text" name="subject">
+								<input id="POST-subject" type="text" name="subject" placeholder="Subject">
 							</label>
 							<div class="clear"></div>
 							<label id="message">
-								<span>Message</span>
-								<input id="POST-message" type="text" name="message">
+								<textarea id="POST-message" name="message" placeholder="Message"></textarea>
 							</label>
 							<div class="clear"></div>
-							<input type="submit" value="Send">
-							<div class="clear"></div>
-
+							<button>Send</button>
 						</form>
-
-						<section>
+						<section id="map">
 							<h3>Find us via Google Maps</h3>
 							<img src="img/map.jpg" alt="image from a google map" />
-							<div>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque.
-								<p>
-								<p>
-									Lorem ipsum dolor <em>sollicitudin</em> sit amet, consectetur adipiscing elit. Suspendisse ligula neque.
-								<p>
-								<p>
-									Pellentesque rhoncus magna et enim porttitor, <em>sollicitudin</em>sollicitudin tempus lacus suscipit.
-								<p>
-							</div>
 						</section>
-					</div>
-
-					<div>
-						<aside>
-							<div>
-								<address>
-									<p>Office Europe</p>
-									<em>Phone:</em><br/>
-									+4 568 65 9321<br/>
-									<em>Fax:</em><br/>
-									+4 568 65 9322<br/>
-									<em>Email:</em><br/>
-									address@address.com
-								</address>
-								<address>
-									<p>Office Asia</p>
-									<em>Phone:</em><br/>
-									+4 568 65 9321<br/>
-									<em>Fax:</em><br/>
-									+4 568 65 9322<br/>
-									<em>Email:</em><br/>
-									address@address.com
-								</address>
-							</div>
-
-							<div>
-								<section>
-									<h1>Something about our<br/><em>web design</em></h1>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque, sollicitudin eget pharetra id, sollicitudin sed mi.
-									</p>
-									<p>
-										Maecenas non adipiscing massa. Pellentesque rhoncus magna et enim porttitor, sollicitudin tempus lacus suscipit.
-									</p>
-									<p>
-										Mauris semper tristique congue. Integer eget ultricies ipsum.
-									</p>
-								</section>
-							</div>
-						</aside>
+						<div id="maptext">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque.
+							<p>
+							<p>
+								Lorem ipsum dolor <em>sollicitudin</em> sit amet, consectetur adipiscing elit. Suspendisse ligula neque.
+							<p>
+							<p>
+								Pellentesque rhoncus magna et enim porttitor, <em>sollicitudin</em>sollicitudin tempus lacus suscipit.
+							<p>
+						</div>
+						<div class="clear"></div>
 					</div>
 				</div>
 			</div>

@@ -22,7 +22,6 @@ div#bg div.wrapper{
 	background: -o-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(232,232,232,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 }
 div#bg div.wrapper div.body_color{
 	-webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#bebebe), to(#fff), color-stop(0.5, #fff), color-stop(0, #66cc00)) 21 30 30 21 repeat repeat;
@@ -36,20 +35,14 @@ div#bg div.wrapper div.body_color{
 	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
-
 }
 div#bg div.wrapper div.body_color div aside{
 	position: absolute;
 	top:10px;
 	left:10px;
 }
-div#bg div.wrapper div.body_color>div{
-	padding-left:260px;
-	padding-right: 40px;
-}
 
-div#bg div.wrapper div.body_color>div article h1{
+div.main_body article h1{
 	color: #333;
 	padding-top:10px;
 	line-height: 1.5em;
@@ -57,14 +50,14 @@ div#bg div.wrapper div.body_color>div article h1{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
-div#bg div.wrapper div.body_color div article h2{
+div.main_body  article h2{
 	color: #888;
 	line-height: 1.5em;
 	font-size: 1.3em;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-div#bg div.wrapper div.body_color div p{
+div.main_body  p{
 	color:#666;
 	line-height: 1.2em;
 	padding-top:20px;
@@ -73,100 +66,68 @@ div#bg div.wrapper div.body_color div p{
 	font-size: 1em;
 
 }
-div#bg div.wrapper div.body_color div article h2{
+div.main_body  article h2{
 	color:#666;
 	line-height: 1.2em;
 	padding-top:10px;
 	font-size:.8em;
 
 }
-div#bg div.wrapper div.body_color div article a{
+div.main_body  article a{
 	color:#d05606;
 	font-weight: bold;
 	font-size: .8em
 }
-div#bg div.wrapper div.body_color div article a:hover{
+div.main_body article a:hover{
 	color:#e9a60d;
 }
-
-div#bg div.wrapper div.body_color div article a.read_more{
+div.main_body  article a.read_more{
 	font-weight: normal;
 	font-size: .8em;
 	padding-left:10px;
 }
-div#bg div.wrapper div.body_color aside nav{
-	background-color: #f2f2f2;
-	border: 1px solid #e0e0df;
-	padding: 10px;
-	padding-bottom: 20px;
-	margin-bottom: 20px;
 
-}
-div#bg div.wrapper div.body_color aside nav strong{
-	text-align: center;
-	display: block;
-	font-size: 2em;
-	color:#666;
-	padding-bottom: 20px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-div#bg div.wrapper div.body_color aside nav p{
-	text-align: center;
-	font-size: 1.5em;
-	text-shadow: rgba(222, 222, 222, 03) 1px 0;
-	font-weight: bold;
-	color:#d05606;
-	letter-spacing: .1em;
-	font-family: 'Open Sans Condensed', sans-serif;
-	padding-bottom:30px;
-}
-div#bg div.wrapper div.body_color aside nav ul li{
-	color: #666;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	padding-bottom:30px;
-}
-div#bg div.wrapper div.body_color aside nav ul li a{
-	color:#666;
-}
-/*question
-div#bg div.wrapper div.body_color aside nav ul li a:hover{
-	background: url("../img/arrow.png");
-
-}*/
-div#bg div.wrapper div.body_color div aside>img{
+section.aside_text>img{
 	padding-top:20px;
 	padding-bottom: 20px;
 }
-div#bg div.wrapper div.body_color div aside figure img{
+figure img{
 	padding-right:10px;
 	padding-bottom:10px;
 	float:left;
+	width:90px;
+	height:90px;
 }
-div#bg div.wrapper div.body_color div aside figure img:hover{
+figure img#flickr{
+	padding-right:10px;
+	padding-bottom:10px;
+	float:left;
+	height:auto;
+	width: auto;
+}
+figure img:hover{
 	opacity:0.6;
-	filter:alpha(opacity=60); /* For IE8 and earlier */
 }
-div#bg div.wrapper div.body_color div aside figure figcaption{
+figure figcaption{
 	font-size:.8em;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color:#666;
 }
-div#bg div.wrapper div.body_color div aside h1{
-	color: #666;
-	font-size: 1.2em;
-	line-height: 1.5em;
-	font-weight: bold;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	padding-bottom:10px;
-}
-div#bg div.wrapper div.body_color div aside>a{
-	color: #666;
-	font-size: 1em;
-	line-height: 1.5em;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+section.aside_text h1{
+	margin-left:0;
+	font-size: .8em;
 	padding-bottom:20px;
+
+}
+section.aside_text a{
+	color: #666;
+	font-size: .9em;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-top:20px;
 }
 
-div#bg div.wrapper div.body_color div aside>a:hover{
+
+section.aside_text a:hover{
 	color:#d05606;
 }
