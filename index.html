@@ -2,17 +2,16 @@
 <html>
 	<head>
 		<title>WDIM268 Final Project Website::Home</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css" rel="stylesheet" type="text/css" >
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<header>
-			<!--Font is "Fertigo Pro", found at Font Squirrel.
-			"WDIM268 final project website" are H1 image replacement.  -->
 			<div id="header_top">
 				<div class="wrapper">
 					<h1><strong>WDIM268</strong> Final project website</h1>
-					<img src='image.jpg' alt='image of a search area'/>
+					<img src='img/search.jpg' alt='image of a search area'/>
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -27,11 +26,11 @@
 					    <li><a href="#">Blog</a></li>
 					    <li><a href="#">Contact</a></li>
 					    <li><a href="#">Pricing</a></li>
-						
+
 					  </ul>
 					</nav>
-					
-					<div id="login_signin">
+
+					<div class="float_right">
 					    <a id="login" href="#">Log in</a>
 					    or
 					    <a id="signup" href="#">Sign up</a>
@@ -56,10 +55,11 @@
 					</p>
 					<button name="GetAQuote">Get A Quote</button>
 					<button name="ViewPortfolio">View Portfolio</button>
-				</div>
 				<div class="clear"></div>
+				</div>
+				
 				<div class="right50">
-					<img src="#" alt="Two images of a website">
+					<img src="img/portfolio01.png" alt="Two images of a website">
 				</div>
 				<div class="clear"></div>
 			</div>
@@ -68,29 +68,23 @@
 		<div id="body">
 			<div class="wrapper">
 				<div id="menu">
-					<a id="Web_Design">
-						<img src="#" alt="Web Design" />
-					</a>
-					<a id="Marketing">
-						<img src="#" alt="Marketing" />
-					</a>
-					<a id="Consulting">
-						<img src="#" alt="Consulting" />
-					</a>
-					<a id="Support">
-						<img src="#" alt="Support" />
-					</a>
+					<div></div>
+					<a id="web_design"></a>
+					<a id="marketing"></a>
+					<a id="consulting"></a>
+					<a id="support"></a>
+					<div></div>
 				</div>
-				
+
 				<figure>
-					<img src="#" alt="image of a portfolio site" />
+					<img src="img/portfolio02.png" alt="image of a portfolio site" />
 					<figcaption>
-						<i>Freelance designer</i>  - January 2009
+						<i>Freelance designer</i> - January 2009
 					</figcaption>
 				</figure>
-				
+
 				<div class="right50">
-					<h1>We make the best website!</h1>
+					<h1>We make the best websites!</h1>
 					<h2>Because web design is our passion and that's what we do.</h2>
 					<ul>
 						<li>Design</li>
@@ -100,8 +94,8 @@
 						<li>Project management</li>
 						<li>Hosting</li>
 						<li>Support</li>
-					<div class="clear"></div>
 					</ul>
+					<div class="clear"></div>
 					<p>Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.</p>
 				</div>
 				<div class="clear"></div>
@@ -113,83 +107,127 @@
 						<button name='Testimonial'>See What Others are Saying</button>
 						<cite>said <i>John Doe</i> of 
 							<a>
-								<img src="#" alt="logo of awesomeness">
+								<img src="img/awesomeness.jpg" alt="logo of awesomeness">
 							</a>
 						</cite>
 					</div>
 				</section>
 			</div>
 		</div>
+
 		<footer>
-			<div>
-				<h1>Latest Blog Entries</h1>
-				<article>
-					<p>
-						<time>12.01</time>
-						<h1>We did  a resign...</h1>
-						Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
-					</p>
-				</articule>
-				<article>
-					<p>
-						<time>11.21</time>
+			<div id="footer_top"></div>
+			<div class="wrapper">
+				<div id="blog">
+					<h1>Latest Blog Entries</h1>
+					<hr>
+					<article>
+						<time>12-01</time>
+						<h1>We did a redesign...</h1>
+						<div class="clear"></div>
+						<p>
+							Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
+						</p>
+					</article>
+					<article>
+						<time>11-23</time>
 						<h1>Moving to new server</h1>
-						Quote me on an estimate et non interruptus stadium. Gratuitous octopus niacin, sodium glutimate.
-					</p>
-				</articule>
-				<article>
-					<p>
-						<time>11.10</time>
-						<h1>We have a new client</h1>
-						Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
-					</p>
-				</articule>
+						<div class="clear"></div>
+						<p>
+							Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
+						</p>
+					</article>
+					<article>
+						<time>11-13</time>
+						<h1>We have a new client!</h1>
+						<div class="clear"></div>
+						<p>
+							Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
+						</p>
+					</article>
+				</div>
+
+				<div id="comments">
+					<h1>Recent Comments</h1>
+					<hr>
+					
+					<img src="img/comments.png" alt="image of comment bubbles">
+					<div>
+						<p><em>Ben</em> said:<br/></p>
+						<q>
+							Gratuitous octopus niacin, sodum
+						</q>
+						<div class="clear"></div>
+					</div>
+					
+
+					<img src="img/comments.png" alt="image of comment bubbles">
+					<div>
+						<p><em>Joe Santos</em> said:<br/></p>
+						<q>
+							Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
+						</q>
+						<div class="clear"></div>
+					</div>
+						
+
+					<img src="img/comments.png" alt="image of comment bubbles">
+					<div>
+						<p><em>Ben</em> said:<br/></p>
+						<q>
+							Quote me on an estimate et non interruptus stadium. Gratuitous octopus niacin, sodium glutimate.
+						</q>
+						<div class="clear"></div>
+					</div>
+						
+
+				</div>
+				<div id="advertising">
+					<h1>Advertising</h1>
+					<hr>
+					<a href="#"><img class="left" src="img/ad01.jpg" alt="image of adversisement 01"/></a>
+					<a href="#"><img class="right" src="img/ad02.jpg" alt="image of adversisement 01"/></a>
+					<a href="#"><img class="left" src="img/ad03.jpg" alt="image of adversisement 01"/></a>
+					<a href="#"><img class="right" src="img/ad04.jpg" alt="image of adversisement 01"/></a>
+
+				</div>
+				<div id="tweeter">
+					<h1>Tweeter Stuff</h1>
+					<hr>
+					<div>
+						<p>
+							<a href="#">wisefalco:</a><br/>
+							@<a href="#">simnor</a> Haha this is really funny (<a href="http://tynyurl.com/">http://tynyurl.com/</a>)<br/>
+							<i>5 minutes ago from web</i>
+						</p>
+					</div>
+					<a href="#">Follow us on Twitter</a>
+					<img src="img/tweeter_bird.png" alt="latest tweet"/>
+				</div>
+				<div class="clear"></div>
 			</div>
-			<div>
-				<h1>Recent Comments</h1>
-				<q>
-					<img src="#" alt="image of comment bubbles">
-					<em>Ben<em/> said:<br/>
-						Gratuitous octopus niacin, sodum
-				</q>
-				<q>
-					<img src="#" alt="image of comment bubbles">
-					<em>Joe Santos<em/> said:<br/>
-						Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.
-				</q>
-				<q>
-					<img src="#" alt="image of comment bubbles">
-					<em>Ben<em/> said:<br/>
-						Quote me on an estimate et non interruptus stadium. Gratuitous octopus niacin, sodium glutimate.
-				</q>
-				
-			</div>
-			<div>
-				<h1>Advertising</h1>
-				<img src="#" alt="image of adversisement 01"/>
-				<img src="#" alt="image of adversisement 01"/>
-				<img src="#" alt="image of adversisement 01"/>
-				<img src="#" alt="image of adversisement 01"/>
-			</div>
-			<div>
-				<h1>Tweeter Stuff</h1>
-				<img src="#" alt="latest tweet"/>
-				<p>Follow us on Twitter</p>
-			</div>
-			<div>
-				<p><strong>WDIM268</strong> Copyright 2013. All rights reserved. Valid (X)HTML/CSS.</p>
-				<nav>
-				  <ul>
-				    <li><a href="#">Home</a></li>
-				    <li><a href="#">About</a></li>
-				    <li><a href="#">Services</a></li>
-				    <li><a href="#">Portfolio</a></li>
-				    <li><a href="#">Blog</a></li>
-				    <li><a href="#">Contact</a></li>
-				    <li><a href="#">Pricing</a></li>
-				  </ul>
-				</nav>
-			</div>
+				<div id="footer_bottom">
+					<div class="wrapper">
+						<div class="float_left">
+							<p><strong>WDIM268</strong> Copyright 2013. All rights reserved. Valid (X)HTML/CSS.</p>
+						</div>
+						<div class="float_right">
+							<nav>
+							  <ul>
+							    <li><a href="#">Home</a></li>
+							    <li><a href="#">About</a></li>
+							    <li><a href="#">Services</a></li>
+							    <li><a href="#">Portfolio</a></li>
+							    <li><a href="#">Blog</a></li>
+							    <li><a href="#">Contact</a></li>
+							    <li><a href="#">Pricing</a></li>
+							  </ul>
+							</nav>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
 		</footer>
 
 	</body>
