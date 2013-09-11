@@ -1,0 +1,119 @@
+div.body_main h2{
+	padding-bottom:20px;
+}
+div.body_main p{
+	color:#666;
+	line-height: 1.2em;
+	padding-top:10px;
+	font-size: .9em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:70%;
+	padding-bottom:20px;
+}
+div#bg div.wrapper div.body_color div p em{
+	color: #d05606;
+}
+form{
+	float:left;
+}
+form label{
+	position: relative
+}
+form input, textarea{
+	height:30px;
+	width:200px;
+	padding:5px;
+	margin-bottom:20px;
+	background-color: #f2f2f2;
+	border: 1px solid #e0e0df;
+}
+form button{
+	border:0;
+	background-color: transparent;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#1e96a0;
+}
+form label#message textarea{
+	height:200px;
+	width:400px;
+}
+form span{
+	color:#888;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size:.8em;
+	position: absolute;
+	left:10px;
+	top:4px;
+}
+
+form input:hover{
+	border: 1px solid #e9a60d;
+}
+section#map{
+	float:left;
+}
+div#maptext{
+	width:210px;
+	float: left;
+	padding-top:60px;
+	padding-left:20px;
+}
+
+section#map h3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom:20px;	
+	color:#666;
+	font-size: .9em;
+
+}
+
+aside div:first-child{
+	background-color: #f2f2f2;
+	border: 1px solid #e0e0df;
+	padding: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+aside div address{
+	color: #666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height:1.5em;
+	font-size: .8em;
+}
+aside div address p{
+	font-size: 1.5em;
+	color:#666;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+div address:nth-child(2){
+	padding-top:20px;	
+}
+aside div address em{
+	color:#666;
+	font-weight: bold;
+	font-size: .8em;
+}
+aside div section h1{
+	color: #666;
+	font-size: .9em;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+div#bg div.wrapper div.body_color aside section h1 em{
+	color: #d05606;
+}
+div#bg div.wrapper div.body_color aside section p{
+	color: #666;
+	font-size: .8em;
+	line-height: 1.3em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 180px;
+	padding-top:20px;
+}
+

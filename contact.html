@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WDIM268 Final Project Website::Home</title>
+		<title>WDIM268 Final Project Website::About</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
-		<link href="css/style.css" rel="stylesheet" type="text/css" >
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/about.css" rel="stylesheet" type="text/css">
+		<link href="css/contact.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
+
 		<header>
 			<div id="header_top">
 				<div class="wrapper">
@@ -19,12 +22,12 @@
 				<div class="wrapper">
 					<nav id="global_nav">
 					  <ul>
-					    <li><a class="active" href="index.html">Home</a></li>
+					    <li><a href="index.html">Home</a></li>
 					    <li><a href="about.html">About</a></li>
 					    <li><a href="#">Services</a></li>
 					    <li><a href="portfolio.html">Portfolio</a></li>
 					    <li><a href="blog.html">Blog</a></li>
-					    <li><a href="contact.html">Contact</a></li>
+					    <li><a class="active" href="contact.html">Contact</a></li>
 					    <li><a href="pricing.html">Pricing</a></li>
 					  </ul>
 					</nav>
@@ -39,79 +42,96 @@
 			</div>
 		</header>
 
-		<div id="hero_picture">
+		<div id="bg">
 			<div class="wrapper">
-				<div class="left50">
-					<h1>
-						This isn't as hard as it looks.<br>
-						I promise.
-					</h1>
-					<h2>
-						Because you are the next generation of web designers and developers.
-					</h2>
-					<p>
-						<strong>Gratuitous octopus niacin, sodium glutimate.</strong><br/>
-						Quote me on an estimate et non interruptus stadium.
-					</p>
-					<button name="GetAQuote">Get A Quote</button>
-					<button name="ViewPortfolio">View Portfolio</button>
-				<div class="clear"></div>
-				</div>
+				<div class="body_color">
+					<aside>
+						<div>
+							<address>
+								<p>Office Europe</p>
+								<em>Phone:</em><br/>
+								+4 568 65 9321<br/>
+								<em>Fax:</em><br/>
+								+4 568 65 9322<br/>
+								<em>Email:</em><br/>
+								address@address.com
+							</address>
+							<address>
+								<p>Office Asia</p>
+								<em>Phone:</em><br/>
+								+4 568 65 9321<br/>
+								<em>Fax:</em><br/>
+								+4 568 65 9322<br/>
+								<em>Email:</em><br/>
+								address@address.com
+							</address>
+						</div>
 
-				<div class="right50">
-					<img src="img/portfolio01.png" alt="Two images of a website">
-				</div>
-				<div class="clear"></div>
-			</div>
-		</div>
+						<div>
+							<section>
+								<h1>Something about our<br/><em>web design</em></h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque, sollicitudin eget pharetra id, sollicitudin sed mi.
+								</p>
+								<p>
+									Maecenas non adipiscing massa. Pellentesque rhoncus magna et enim porttitor, sollicitudin tempus lacus suscipit.
+								</p>
+								<p>
+									Mauris semper tristique congue. Integer eget ultricies ipsum.
+								</p>
+							</section>
+						</div>
+						<div class="clear"></div>
+					</aside>
+					
 
-		<div id="body">
-			<div class="wrapper">
-				<div id="menu">
-					<div></div>
-					<a id="web_design"></a>
-					<a id="marketing"></a>
-					<a id="consulting"></a>
-					<a id="support"></a>
-					<div></div>
-				</div>
+					<div class="body_main">
+						<h1>Contact</h1>
+						<h2>We can answer all your questions</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque, <em>sollicitudin</em> eget pharetra id, sollicitudin sed mi. Maecenas non adipiscing massa.
+						</p>
+						<p>
+							Sollicitudin eget <em>pharetra</em> id
+						</p>
 
-				<figure>
-					<img src="img/portfolio02.png" alt="image of a portfolio site" />
-					<figcaption>
-						<i>Freelance designer</i> - January 2009
-					</figcaption>
-				</figure>
-
-				<div class="right50">
-					<h1>We make the best websites!</h1>
-					<h2>Because web design is our passion and that's what we do.</h2>
-					<ul class="service">
-						<li>Design</li>
-						<li>(X)HTML/Css</li>
-						<li>Javascript</li>
-						<li>Custom CMS (BVD)</li>
-						<li>Project management</li>
-						<li>Hosting</li>
-						<li>Support</li>
-					</ul>
-					<div class="clear"></div>
-					<p>Gratuitous octopus niacin, sodium glutimate. Quote me on an estimate et non interruptus stadium.</p>
-				</div>
-				<div class="clear"></div>
-
-				<section class="testimonial">
-					<div>
-						<h1>WDIM268 is the best agency I've ever worked with...</h1>
-						<q>"These guys are simply awesome. I sent them my brief, they answered within few hours and one week later they delivered me the best design ever!"</q>
-						<button name='Testimonial'>See What Others are Saying</button>
-						<cite>said <i>John Doe</i> of
-							<a>
-								<img src="img/awesomeness.jpg" alt="logo of awesomeness">
-							</a>
-						</cite>
+						<form action="#" method="post">
+							<label>
+								<input id="POST-name" type="text" name="name" placeholder="Name">
+							</label>
+							<div class="clear"></div>
+							<label>
+								<input id="POST-email" type="text" name="email" placeholder="Email">
+							</label>
+							<div class="clear"></div>
+							<label>
+								<input id="POST-subject" type="text" name="subject" placeholder="Subject">
+							</label>
+							<div class="clear"></div>
+							<label id="message">
+								<textarea id="POST-message" name="message" placeholder="Message"></textarea>
+							</label>
+							<div class="clear"></div>
+							<button>Send</button>
+						</form>
+						<section id="map">
+							<h3>Find us via Google Maps</h3>
+							<img src="img/map.jpg" alt="image from a google map" />
+						</section>
+						<div id="maptext">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula neque.
+							<p>
+							<p>
+								Lorem ipsum dolor <em>sollicitudin</em> sit amet, consectetur adipiscing elit. Suspendisse ligula neque.
+							<p>
+							<p>
+								Pellentesque rhoncus magna et enim porttitor, <em>sollicitudin</em>sollicitudin tempus lacus suscipit.
+							<p>
+						</div>
+						<div class="clear"></div>
 					</div>
-				</section>
+				</div>
 			</div>
 		</div>
 
@@ -150,7 +170,7 @@
 				<div id="comments">
 					<h1>Recent Comments</h1>
 					<hr>
-
+					
 					<img src="img/comments.png" alt="image of comment bubbles">
 					<div>
 						<p><em>Ben</em> said:<br/></p>
@@ -159,7 +179,7 @@
 						</q>
 						<div class="clear"></div>
 					</div>
-
+					
 
 					<img src="img/comments.png" alt="image of comment bubbles">
 					<div>
@@ -169,7 +189,7 @@
 						</q>
 						<div class="clear"></div>
 					</div>
-
+						
 
 					<img src="img/comments.png" alt="image of comment bubbles">
 					<div>
@@ -179,7 +199,7 @@
 						</q>
 						<div class="clear"></div>
 					</div>
-
+						
 
 				</div>
 				<div id="advertising">
@@ -214,13 +234,13 @@
 						<div class="float_right">
 							<nav>
 							  <ul>
-							    <li><a href="index.html">Home</a></li>
-							    <li><a href="about.html">About</a></li>
+							    <li><a href="#">Home</a></li>
+							    <li><a href="#">About</a></li>
 							    <li><a href="#">Services</a></li>
-							    <li><a href="portfolio.html">Portfolio</a></li>
-							    <li><a href="blog.html">Blog</a></li>
-							    <li><a href="contact.html">Contact</a></li>
-							    <li><a href="pricing.html">Pricing</a></li>
+							    <li><a href="#">Portfolio</a></li>
+							    <li><a href="#">Blog</a></li>
+							    <li><a href="#">Contact</a></li>
+							    <li><a href="#">Pricing</a></li>
 							  </ul>
 							</nav>
 						</div>
@@ -230,6 +250,5 @@
 
 		</footer>
 
->>>>>>> final
 	</body>
 </html>

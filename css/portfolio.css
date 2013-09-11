@@ -1,0 +1,149 @@
+
+div#bg div.wrapper div.body_color div aside{
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+div#bg div.wrapper div.body_color>div{
+	padding-left:260px;
+	padding-right: 40px;
+}
+
+
+div.blog{
+	background-color: #f2f2f2;
+	border: 1px solid #e0e0df;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+}
+div#featured{
+	background-color: #f0f0f0;
+	border: 1px solid #cdcdcd;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+}
+div#featured article img{
+	border: 1px solid #ececec;
+	background-color: #f8f7f7;
+	padding: 10px;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:20px;
+	float:left;
+}
+article img{
+	float: left;
+}
+div#featured article div{
+	float: left;
+}
+
+div#featured article div h1{
+	padding-top:0;
+	color: #333;
+	padding-top: 10px;
+	font-size: 1.3em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+div#featured article div h2{
+	color: #666;
+	line-height: 1.2em;
+	padding-top: 10px;
+	font-size: .8em;
+	padding-bottom:10px;
+}
+div#featured article div h2 a{
+	color: #d05606;
+	font-weight: bold;
+	font-size: .8em;
+}
+div#featured article div p{
+	color: #666;
+	font-size: .9em;
+	line-height: 1.2em;
+	padding-bottom: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:300px;
+}
+
+div#featured div article img{
+	border: 1px solid #ececec;
+	background-color: #f8f7f7;
+	padding: 10px;
+	margin-top:-10px;
+	margin-left:-10px;
+	margin-right:20px;
+	float:left;
+}
+div.blog article div h1{
+	color: #333;
+	padding-top: 10px;
+	font-size: 1.3em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top:-10px;
+}
+div.blog article div{
+	float: left;
+}
+div.blog article img{
+	float: left;
+	padding-right:20px;
+}
+div.blog article div p{
+	color: #666;
+	font-size: .9em;
+	line-height: 1.2em;
+	padding-bottom: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width:490px;
+}
+
+div.body_color aside nav {
+	background-color: #f2f2f2;
+	border: 1px solid #e0e0df;
+	padding: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+section.aside_text{
+	border: 0;
+	background-color: transparent;
+	margin-top: 0;
+}
+section.aside_text h1{
+	margin-left:0;
+	font-weight: bold;
+}
+section.aside_text h1 em{
+	color: #d05606;
+}
+section.aside_text p{
+	font-size: .8em;
+	line-height: 1.3em;
+	width: 180px;
+	padding-top:20px;
+}
+div#bg div.wrapper div.body_color aside div section h1{
+	color: #666;
+	font-size: .9em;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+div#bg div.wrapper div.body_color aside section h1 em{
+	color: #d05606;
+}
+div#bg div.wrapper div.body_color aside section p{
+	color: #666;
+	font-size: .8em;
+	line-height: 1.3em;
+	margin-left: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 180px;
+	padding-top:20px;
+}
+
